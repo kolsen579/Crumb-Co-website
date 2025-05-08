@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* White background */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #f5c6d0; /* Light pink */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px; /* Logo size */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/hero-image.jpg'); /* Hero image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Menu Section */
+#menu {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#menu h2 {
+    font-size: 32px;
+    color: #f5c6d0; /* Light pink */
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.menu-item p {
+    font-size: 18px;
+}
+
+/* About Section */
+#about {
+    padding: 40px;
+    background-color: #f5e1a4; /* Light beige */
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 32px;
+    color: #f5c6d0; /* Light pink */
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px;
+    background-color: #f5e1a4; /* Light beige */
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 32px;
+    color: #f5c6d0; /* Light pink */
+}
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    background-color: #f5c6d0; /* Light pink */
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
